@@ -21,6 +21,6 @@ header { padding: 25px; }
 
 .ribbon-button {
     font-family: monospace, sans-serif;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 25px;
 }
