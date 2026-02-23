@@ -1,0 +1,71 @@
+* {
+    color: #000000;
+
+    text-decoration: none;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; /* Prevents horizontal scroll */
+    margin: 0;
+    padding: 0;
+    
+    background-color: rgb(255, 255, 255);
+}
+
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+    * {
+        color: #ffffff;
+
+        text-decoration: none;
+    }
+  
+    html, body {
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden; /* Prevents horizontal scroll */
+        margin: 0;
+        padding: 0;
+
+        background: #1a1a1a;
+    }
+}
+
+body {
+  display: flex;
+  flex-direction: column; /* Stacks Header, Main, and Footer vertically */
+  min-height: 100vh;      /* Minimum height is the full Viewport Height */
+}
+
+header { padding: 20px; }
+
+main {
+    flex: 1;
+    align-content: center;
+    text-align: center;
+    height: 100%;
+}
+
+.animated-text {
+    font-family: monospace, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.animated-button {
+    font-family: monospace, sans-serif;
+    font-weight: bold;
+}
+
+.error-text {
+    font-family: monospace, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}

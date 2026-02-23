@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="view-transition" content="same-origin" />
+
+    <title>{{ site.title }}</title>
+
+    <link rel="stylesheet" href="/assets/main.css">
+    <link rel="stylesheet" href="/assets/css/header.css">
+    <link rel="stylesheet" href="/assets/css/footer.css">
+
+    <link class="favicon" rel="icon" href="/assets/images/site/hpr-favicon.svg">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        {% include header.html %}
+    </header>
+    <main>
+        <div style="word-wrap: break-word;">
+            <a class="animated-text" href="/" data-event-type="hover">COMING SOON</a>
+        </div>
+    </main>
+    <footer>
+        {% include footer.html %}
+    </footer>
+    <script src="/assets/js/textGlitch.js"></script>
+</body>
+</html>

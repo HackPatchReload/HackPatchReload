@@ -1,0 +1,26 @@
+header { padding: 25px; }
+
+.web-header {
+    display: grid;
+    grid-template-columns: auto auto;
+    
+    height: 10%;
+    width: 100%;
+    
+    align-items: center;
+}
+
+.header-ribbon {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 25px;
+    justify-content: end;
+    padding-right: 25px;
+}
+
+.ribbon-button {
+    font-family: monospace, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}

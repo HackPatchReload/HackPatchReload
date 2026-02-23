@@ -1,0 +1,23 @@
+.web-footer {
+
+    display: flex;
+    background-color: rgb(18, 18, 18);
+
+    height: 50px;
+    max-height: 100px;
+    width: 100%;
+    max-width: 100vw;
+
+    align-items: center;
+    justify-content: center;
+
+}
+
+.copyright-text {
+
+    font-size: 12px;
+    font-family: Inter;
+
+    color: rgb(255, 255, 255);
+
+}
