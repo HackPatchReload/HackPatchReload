@@ -20,7 +20,7 @@ header { padding: 25px; }
 }
 
 .ribbon-button {
-    font-family: monospace, sans-serif;
+    font-family: 'Roboto Mono', monospace;
     font-weight: 700;
     font-size: 25px;
 }

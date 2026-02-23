@@ -48,19 +48,19 @@ main {
 }
 
 .animated-text {
-    font-family: monospace, sans-serif;
+    font-family: 'Roboto Mono', monospace;
     font-size: 32px;
     font-weight: 700;
     text-align: center;
 }
 
 .animated-button {
-    font-family: monospace, sans-serif;
+    font-family: 'Roboto Mono', monospace;
     font-weight: 700;
 }
 
 .error-text {
-    font-family: monospace, sans-serif;
+    font-family: 'Roboto Mono', monospace;
     font-size: 32px;
     font-weight: 700;
     text-align: center;
